@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlTable_Dataset_Fact",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "fact",
+			"table": "sale"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
